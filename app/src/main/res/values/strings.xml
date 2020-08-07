@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">DDD</string>
+    <string name="action_search">Search</string>
+    <string name="server_url">http://lamis3.sidhas.org:8080/</string>
+    <string name="pin_label">Enter activation code</string>
+    <string name="user_name_label">Enter username</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="langselection">Select the language!!!!</string>
+    <string-array name="spinner_month">
+        <item></item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="role">
+        <item></item>
+        <item>Facility</item>
+        <item>DDD outlet</item>
+    </string-array>
+
+    <string-array name="outlet_type">
+        <item>Select Outlet Type</item>
+        <item>Pharmacy</item>
+        <item>CARG</item>
+        <item>Home Delivery</item>
+    </string-array>
+    <string name="str_tv_title">AChartEngine Graph in a custom layout</string>
+    <string-array name="spinner_discontinue">
+        <item> </item>
+        <item>Becomes pregnant</item>
+        <item>Unable to pay service charge</item>
+        <item>Develops comorbidity</item>
+        <item>Loss of viral suppression</item>
+        <item>Decides to go back to hospital</item>
+        <item>Becomes non-adherent</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="clinical_stage">
+        <item></item>
+        <item>Stage I</item>
+        <item>Stage II</item>
+        <item>Stage III</item>
+        <item>Stage IV</item>
+    </string-array>
+
+
+    <string-array name="spinner_yes_no">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="viral_load_type">
+        <item></item>
+        <item>Routine</item>
+        <item>Targeted</item>
+    </string-array>
+
+    <string name="prompt_email">Username</string>
+    <string name="username_portugues">nome do usuário</string>
+    <string name="password_portugues">senha</string>
+    <string name="login_portugues">Conecte-se</string>
+    <string name="forgot_password_portugues">Esqueceu a senha?</string>
+    <string name="don_t_have_an_account_portugues">Você não tem uma conta?</string>
+    <string name="register_portugues">Registro</string>
+    <string name="register_as_facility_portugues">Registre-se como Instalação</string>
+    <string name="register_as_a_ddd_outlet_portugues">Registre-se como uma tomada DDD</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
+
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logo">Logo</string>
+
+
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="inventory_management">Inventory Management</string>
+    <string name="drug_name">Drug Name</string>
+    <string name="basic_unit">Basic Unit</string>
+    <string name="save">Save</string>
+    <string name="basic_unit1">Basic Unit?</string>
+    <string name="register_as_facility">\n \n  \n \nRegister \n  as Facility</string>
+    <string name="register_as_a_ddd_outlet">\n \n  \n \n Register \n  as  outlet</string>
+    <string name="art_care">ART Care</string>
+    <string name="did_you_miss_any_dose_of_your_medication">Did you miss any dose of your medication</string>
+    <string name="enter_reaction">Enter reaction</string>
+    <string name="next_clinic_visit">Next clinic visit</string>
+    <string name="viral_load_due_date">Viral load due date</string>
+    <string name="date_tracked">Date Tracked</string>
+    <string name="type_of_tracking">Type of Tracking</string>
+    <string name="tracking_outcome">Tracking Outcome</string>
+    <string name="next_agreed_date">Next Agreed Date</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">Name</string>
+    <string name="change_language">Change Language</string>
+    <string name="activation_code">Activation code</string>
+    <string name="server_url1">Server URL</string>
+    <string name="activate">Activate</string>
+    <string name="arv_refill">ARV Refill</string>
+    <string name="discontinuing_ddd_service">Discontinuing DDD Service</string>
+    <string name="refill_history">Refill History</string>
+    <string name="client_profile">Client Profile</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="last_refill_date">Last Refill Date</string>
+    <string name="last_vl_date">Last VL/Date</string>
+    <string name="next_clinic">Next Clinic</string>
+    <string name="next_viral_load">Next Viral Load</string>
+    <string name="ddd_outlet_name">DDD Outlet Name</string>
+    <string name="register">Register</string>
+    <string name="date_of_registration">Date Of Registration</string>
+    <string name="date_discontinued">Date Discontinued</string>
+    <string name="reason_for_discontinuing_service">Reason for Discontinuing</string>
+    <string name="female">Female</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="user_login">User Login</string>
+    <string name="register_as_either_a_facility_n_or_as_a_ddd_outlet">Register as either a facility \n \u0020 \u0020 \u0020 or as a DDD outlet</string>
+    <string name="next">Next</string>
+    <string name="welcome_n_to_n_ddd">Welcome\nto\nDDD</string>
+    <string name="create_facility_account">Create Facility Account</string>
+    <string name="facility_name">Facility Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="create_ddd_outlet_account">Create Outlet Account</string>
+
+    <string name="title_1">First Visit</string>
+    <string name="title_2">Re Visit</string>
+    <string name="title_3">Inventory</string>
+    <string name="title_4">Report</string>
+    <string name="title_5">Synchronize</string>
+    <string name="text_1">Clients who are visiting for the first time.</string>
+    <string name="text_2">Clients who are for Re visit.</string>
+    <string name="text_3">Manage Drugs dispense from the facilities.</string>
+    <string name="text_4">Includes Dashboard,Routine/National,etc.</string>
+    <string name="text_5">Communications between mobile APP and the EMR.</string>
+    <string name="register_ddd_outlet">Register DDD outlet</string>
+    <string name="outlet_visualization_dashboard">Outlet Visualization dashboard</string>
+    <string name="rountine_report">Routine</string>
+    <string name="national_report">National</string>
+    <string name="routine_national_report">Routine &amp; National Report</string>
+    <string name="text_routine_report_description">Daily activities within the outlet.</string>
+    <string name="text_national_report_description">Monthly summary/PEPFA reports.</string>
+
+
+    <string name="title1_1">Register DDD Outlet</string>
+    <string name="title1_2">Inventory</string>
+    <string name="title1_4">Report</string>
+    <string name="title1_5">Synchronize</string>
+
+    <string name="title1_11">Registration of OUTLET for the first time.</string>
+    <string name="title1_21">Management of drugs dispensations.</string>
+    <string name="title1_41">Reporting Module which includes (Dashboard,Routine,National,etc).</string>
+    <string name="title1_51">Communications between mobile APP and the EMR .</string>
+    <string name="drug_setup">Drug Setup</string>
+    <string name="drug_issues">Drug Dispense</string>
+    <string name="text_drug_setup">Drugs to be stocked</string>
+    <string name="text_drug_assigned">Drugs dispensations to the outlets</string>
+    <string name="discontinue_service">Discontinue Service</string>
+    <string name="appointments">Appointments</string>
+
+
+    <string name="drug_recieved">Drug Received</string>
+    <string name="drug_requestion">Drug Request</string>
+    <string name="drug_recieved_desc">Display how drugs is been dispense to patient </string>
+    <string name="drug_request_desc">Requisition drugs from the facility</string>
+    <string name="send_reminder">Send Reminder</string>
+</resources>
