@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.shashank.sony.fancytoastlib.FancyToast;
 
+import org.fhi360.ddd.Db.DDDDb;
 import org.fhi360.ddd.domain.Patient;
 import org.fhi360.ddd.domain.Response;
 import org.fhi360.ddd.webservice.APIService;
@@ -44,6 +45,7 @@ public class FacilityWelcome extends AppCompatActivity {
         String firstLettersurname = String.valueOf(userName.charAt(0));
         String fullSurname = firstLettersurname.toUpperCase() + userName.substring(1).toLowerCase();
         pharmacy.setText(fullSurname);
+        DDDDb.getInstance(getApplicationContext()).patientRepository().delete();
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,55 +53,7 @@ public class FacilityWelcome extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-//        LinearLayout registerDDDOutlet = findViewById(R.id.registerDDDOutlet);
-//        inventory = findViewById(R.id.inventory);
-//
-//        registerClient = findViewById(R.id.clientRegistration);
-//        summaryReport = findViewById(R.id.summaryReport);
-//        synchronize = findViewById(R.id.synchronize);
-//        HashMap<String, String> name = get();
-//        String userName = name.get("name");
-//        assert userName != null;
-//        Objects.requireNonNull(getSupportActionBar()).setTitle("Welcome, " + userName.toUpperCase());
-//        registerDDDOutlet.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(FacilityHome.this, RegisterOutLet.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        registerClient.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(FacilityHome.this, NewVisit.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        summaryReport.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(FacilityHome.this, ReportHomeOptionFacility.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        synchronize.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                List<Patient> patients = DDDDb.getInstance(getApplicationContext()).patientRepository().findByAll();
-//                sync(patients);
-//            }
-//        });
-//
-//        inventory.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(FacilityHome.this, InventorySetup.class);
-//                startActivity(intent);
-//            }
-//        });
+
     }
 
 

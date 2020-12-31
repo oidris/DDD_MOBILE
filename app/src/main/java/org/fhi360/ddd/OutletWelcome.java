@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.fhi360.ddd.Db.DDDDb;
 import org.fhi360.ddd.util.PrefManager;
 
 import java.util.HashMap;
@@ -32,13 +33,10 @@ public class OutletWelcome extends AppCompatActivity {
         String firstLettersurname = String.valueOf(userName.charAt(0));
         String fullSurname = firstLettersurname.toUpperCase() + userName.substring(1).toLowerCase();
         pharmacy.setText(fullSurname);
+        DDDDb.getInstance(getApplicationContext()).patientRepository().delete();
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //String name, int basicUnit, int balance, int qtyrecieved, int dispense
-//                new PrefManager(OutletWelcome.this).saveDrug1("TLD 300/300/50mg", 30, 20, 20, 0);
-//                new PrefManager(OutletWelcome.this).saveDrug2("TLD 300/300/50mg", 90, 30, 10, 0);
-//                new PrefManager(OutletWelcome.this).saveDrug2("TLD 300/300/50mg", 180, 10, 10, 0);
                 Intent intent = new Intent(OutletWelcome.this, OutletHome.class);
                 startActivity(intent);
             }

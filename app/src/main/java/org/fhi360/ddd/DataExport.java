@@ -38,7 +38,7 @@ public class DataExport extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_export);
+     //   setContentView(R.layout.activity_export);
         final Button export = findViewById(R.id.export);
         verifyStoragePermissions(this);
         export.setOnClickListener(new View.OnClickListener() {

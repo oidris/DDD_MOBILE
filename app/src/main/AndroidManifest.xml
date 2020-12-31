@@ -74,6 +74,19 @@
             android:theme="@style/AppTheme.FullScreen"
             tools:ignore="LockedOrientationActivity" />
 
+        <activity
+            android:name="org.fhi360.ddd.InventoryReport"
+            android:parentActivityName="org.fhi360.ddd.ReportHomeOption"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name="org.fhi360.ddd.PatientHistory"
+            android:parentActivityName="org.fhi360.ddd.InventoryReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            tools:ignore="LockedOrientationActivity" />
 
         <activity
             android:name="org.fhi360.ddd.InventorySetup"
@@ -215,12 +228,6 @@
                 android:value="org.fhi360.ddd.FacilityHome" />
         </activity>
 
-        <activity
-            android:name="org.fhi360.ddd.PatientList"
-            android:parentActivityName="org.fhi360.ddd.OutletHome"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme1"
-            tools:ignore="LockedOrientationActivity" />
 
         <activity
             android:name="org.fhi360.ddd.FacilityRountingReportingPeriod"
@@ -406,6 +413,12 @@
             android:theme="@style/AppTheme.FullScreen"
             tools:ignore="LockedOrientationActivity" />
 
+        <activity
+            android:name="org.fhi360.ddd.PatientList"
+            android:parentActivityName="org.fhi360.ddd.OutletHome"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen"
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name="org.fhi360.ddd.ClientTrackingActivity"
             android:parentActivityName="org.fhi360.ddd.DefaulterListActivity"

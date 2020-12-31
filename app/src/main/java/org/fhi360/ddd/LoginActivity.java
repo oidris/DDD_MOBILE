@@ -43,9 +43,6 @@ public class LoginActivity extends AppCompatActivity {
     private Button login;
     private ProgressDialog progressdialog;
     private String deviceconfigId;
-    private Locale myLocale;
-    private Spinner localeSpinner;
-    private Locale mCurrentLocale;
 
     @Override
     protected void attachBaseContext(Context base) {
@@ -258,16 +255,5 @@ public class LoginActivity extends AppCompatActivity {
         return name;
     }
 
-    public void setLocale() {
-        myLocale = new Locale("fr");
-        Resources res = getResources();
-        DisplayMetrics dm = res.getDisplayMetrics();
-        Configuration conf = res.getConfiguration();
-        conf.locale = myLocale;
-        res.updateConfiguration(conf, dm);
-//        Intent refresh = new Intent(this, LoginActivity.class);
-//        startActivity(refresh);
-//        finish();
-    }
 
 }
